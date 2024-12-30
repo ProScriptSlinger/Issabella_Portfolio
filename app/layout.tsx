@@ -8,12 +8,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://abeltony.vercel.app/"),
-  title: "Abel Tony",
-  description: "Developer Portfolio By Abel Tony",
-  keywords: ["Developer", "Portfolio", "Developer Portflio", "Abel Tony"],
+  title: "Isabella James",
+  description: "Realtor Portfolio By Isabella James",
+  keywords: ["Realtor", "Portfolio", "Realtor Portflio", "Isabella James"],
   openGraph: {
-    title: "Abel Tony",
-    description: "Software Engineer",
+    title: "Isabella James",
+    description: "Realtor",
     images: "/OpenGraph.png",
   },
 };
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[#111] overflow-y-scroll overflow-x-hidden`}
+        className={`${inter.className} bg-[#111] overflow-y-auto md:overflow-y-hidden overflow-x-hidden h-100vh`}
       >
         <StarsCanvas />
         <Navbar />

@@ -13,12 +13,12 @@ const Navbar: React.FC<{}> = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h3 className="text-white">ProScriptSlinger</h3>
+          <h3 className="text-white">Realtor</h3>
         </a>
 
         <div className="flex flex-row gap-5">
           <div
-            onClick={() => window.open("mailto:abel.tony.prodev@gmail.com")}
+            onClick={() => window.open("mailto:isabeljames004@gmail.com")}
             className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5"
           >
             Contact

@@ -10,30 +10,30 @@ const Banner: React.FC<{}> = () => {
         <div className="justify-center flex ">
           <Image
             priority
-            src="/upwork.jpg"
-            height={150}
-            width={150}
+            src="/james.jpg"
+            height={200}
+            width={200}
             className="rounded-full"
-            alt="Abel Tony"
+            alt="Isabella James"
           />
         </div>
 
         <div className="flex flex-col gap-6 mt-6 cursor-pointer animate-bounce tracking-tighter text-7xl font-semibold text-white max-w-[600px] w-auto h-auto">
-          Abel Tony!
+          Isabella James
         </div>
         <p className="text-2xl font-medium tracking-tighter  text-gray-300 max-w-[600px]">
-          I do Code &{" "}
+          I do Show &{" "}
           <span className="text-transparent font-semibold  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400">
             Chill
           </span>{" "}
-          🍿
+          🏡
         </p>
         <p className="text-md text-gray-200 my-5 max-w-[600px]">
-          Code is like humor. When you have to explain it, it&apos;s bad.
+        As a seasoned realtor with five years of invaluable experience, I am here to assist you in finding your dream home. Allow me to curate a selection of homes that perfectly match your unique preferences and requirements. Your ideal home is just a step away, and I am committed to making the process smooth and tailored to your needs
         </p>
         <div className="text-md flex justify-center">
           <button
-            onClick={() => window.open("mailto:abel.tony.prodev@gmail.com")}
+            onClick={() => window.open("mailto:isabeljames004@gmail.com")}
             className=" z-[1]     padding-20  hover:bg-white rounded-3xl  text-white font-semibold hover:text-black py-3 px-10  border-[0.1px] border-white hover:border-transparent "
           >
             Contact Me
