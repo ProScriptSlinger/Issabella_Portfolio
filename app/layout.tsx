@@ -24,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" style={{minHeight: "100vh"}}>
       <body
-        className={`${inter.className} bg-[#111] overflow-y-auto md:overflow-y-hidden overflow-x-hidden h-100vh`}
+        className={`${inter.className} bg-[#111] h-100vh  overflow-y-auto md:overflow-y-hidden overflow-x-hidden`}
       >
         <StarsCanvas />
         <Navbar />

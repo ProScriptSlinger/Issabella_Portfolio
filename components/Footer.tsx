@@ -5,8 +5,8 @@ import React from "react";
 
 const Footer: React.FC<{}> = () => {
   return (
-    <div className=" container mx-auto 2xl pt-[50px] pb-8 ">
-      <div className="pb-10 justify-center flex ">
+    <div className=" container mx-auto 2xl pt-[20px] md:pt-[50px] pb-8 ">
+      {/* <div className="pb-10 justify-center flex ">
         {Social_Icons.map((social) => {
           return (
             <Link
@@ -26,7 +26,7 @@ const Footer: React.FC<{}> = () => {
             </Link>
           );
         })}
-      </div>
+      </div> */}
       {/* <p className="text-gray-300 text-center text-sm">
         Created with ❤️ using Next.js
       </p> */}
